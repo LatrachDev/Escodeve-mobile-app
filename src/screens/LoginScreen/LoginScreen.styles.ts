@@ -52,6 +52,11 @@ const styles = StyleSheet.create({
     fontFamily: 'Inter_18-SemiBold',
     fontSize: 14,
   },
+  bottomShape: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+  },
 });
 
 export default styles;
