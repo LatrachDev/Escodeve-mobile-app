@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
   input: {
     height: 40,
     borderBottomWidth: 1,
+    fontFamily: 'Inter_18pt-SemiBold',
     borderBottomColor: '#ccc',
     color: '#2A2A32',
     marginBottom: 10,
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
   forgotText: {
     marginTop: 15,
     color: '#A9A3A3',
-    fontFamily: 'Inter_18-SemiBold',
+    fontFamily: 'Inter_18pt-SemiBold',
     fontSize: 14,
   },
   bottomShape: {
