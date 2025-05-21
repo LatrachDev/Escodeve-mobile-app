@@ -3,16 +3,16 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#EBF4F6',
+        backgroundColor: '#ebf4f6',
         justifyContent: "center",
         alignItems: "center",
-        paddingHorizontal: 20, // for slight horizontal spacing
+        paddingHorizontal: 20, 
     },
     logo: {
         width: 300,
         height: 300,
         resizeMode: 'contain',
-        marginBottom: 40, // space between logo and button
+        marginBottom: 40, 
     },
     button: {
         backgroundColor: '#58BECA',

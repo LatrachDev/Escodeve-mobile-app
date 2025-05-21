@@ -11,6 +11,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F9A4B4399CD240158A7BB73A /* Inter_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDE066ED95B4C3F82A9D960 /* Inter_18pt-Black.ttf */; };
+		2A8FAC9180EE434AA69DE6F2 /* Inter_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5915C51B57D744A2B309C755 /* Inter_18pt-Bold.ttf */; };
+		4C20498CA9774EDDA563033E /* Inter_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50DC06D59973472FB5C1378E /* Inter_18pt-ExtraBold.ttf */; };
+		A800A2B2EB4B45B68925A83D /* Inter_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C107FDBF07C41BFADB7CA85 /* Inter_18pt-Light.ttf */; };
+		CD68AE4731CF4B7784EB2E41 /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A735C5B7A1E4F84968676E8 /* Inter_18pt-Medium.ttf */; };
+		AB71F895F5D64F87A7C382CC /* Inter_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B262A97F960541A58EA95C6E /* Inter_18pt-Regular.ttf */; };
+		318C9E8B8FD045E2B01A26B2 /* Inter_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D9610CBA0E34043A4402AC7 /* Inter_18pt-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,13 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = EscodeveMobile/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EscodeveMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CFDE066ED95B4C3F82A9D960 /* Inter_18pt-Black.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-Black.ttf"; path = "../src/assets/fonts/Inter_18pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5915C51B57D744A2B309C755 /* Inter_18pt-Bold.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-Bold.ttf"; path = "../src/assets/fonts/Inter_18pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50DC06D59973472FB5C1378E /* Inter_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-ExtraBold.ttf"; path = "../src/assets/fonts/Inter_18pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C107FDBF07C41BFADB7CA85 /* Inter_18pt-Light.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-Light.ttf"; path = "../src/assets/fonts/Inter_18pt-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A735C5B7A1E4F84968676E8 /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-Medium.ttf"; path = "../src/assets/fonts/Inter_18pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B262A97F960541A58EA95C6E /* Inter_18pt-Regular.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-Regular.ttf"; path = "../src/assets/fonts/Inter_18pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D9610CBA0E34043A4402AC7 /* Inter_18pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter_18pt-SemiBold.ttf"; path = "../src/assets/fonts/Inter_18pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2F288708599940F0BEEF90B5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +130,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		2F288708599940F0BEEF90B5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CFDE066ED95B4C3F82A9D960 /* Inter_18pt-Black.ttf */,
+				5915C51B57D744A2B309C755 /* Inter_18pt-Bold.ttf */,
+				50DC06D59973472FB5C1378E /* Inter_18pt-ExtraBold.ttf */,
+				9C107FDBF07C41BFADB7CA85 /* Inter_18pt-Light.ttf */,
+				5A735C5B7A1E4F84968676E8 /* Inter_18pt-Medium.ttf */,
+				B262A97F960541A58EA95C6E /* Inter_18pt-Regular.ttf */,
+				3D9610CBA0E34043A4402AC7 /* Inter_18pt-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +215,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F9A4B4399CD240158A7BB73A /* Inter_18pt-Black.ttf in Resources */,
+				2A8FAC9180EE434AA69DE6F2 /* Inter_18pt-Bold.ttf in Resources */,
+				4C20498CA9774EDDA563033E /* Inter_18pt-ExtraBold.ttf in Resources */,
+				A800A2B2EB4B45B68925A83D /* Inter_18pt-Light.ttf in Resources */,
+				CD68AE4731CF4B7784EB2E41 /* Inter_18pt-Medium.ttf in Resources */,
+				AB71F895F5D64F87A7C382CC /* Inter_18pt-Regular.ttf in Resources */,
+				318C9E8B8FD045E2B01A26B2 /* Inter_18pt-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
