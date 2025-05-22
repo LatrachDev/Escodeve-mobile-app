@@ -1,18 +1,28 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
+
+const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     backgroundColor: '#EBF4F6',
-    alignItems: 'center',
-    justifyContent: 'center',
     paddingHorizontal: 30,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    paddingTop: 60, 
+    paddingBottom: 100, 
   },
   logo: {
-    width: 300,
-    height: 300,
+    width: 250,
+    height: 250,
     resizeMode: 'contain',
-    marginBottom: 40,
+    position: 'absolute',
+    top: 40,
+    alignSelf: 'center',
+  },
+  inputSection: {
+    width: '100%',
+    marginTop: 220, 
   },
   inputContainer: {
     width: '100%',
@@ -52,6 +62,7 @@ const styles = StyleSheet.create({
     color: '#A9A3A3',
     fontFamily: 'Inter_18pt-SemiBold',
     fontSize: 14,
+    textAlign: 'center',
   },
   bottomShape: {
     position: 'absolute',
