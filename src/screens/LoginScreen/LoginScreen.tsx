@@ -15,52 +15,47 @@ import BottomLeftSvg from "../../components/BottomLeftSvg";
 const LoginScreen: React.FC = () => {
   return (
     <KeyboardAvoidingView style={{ flex: 1, backgroundColor: '#EBF4F6' }}>
-      <ScrollView
-        contentContainerStyle={styles.container}
-        keyboardShouldPersistTaps="handled"
-      >
-        <TopRightSvg />
 
-        {/* Logo */}
-        <Image
-          style={styles.logo}
-          source={require('../../assets/images/Escodeve-logo.png')}
-        />
+        <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
+            <TopRightSvg />
 
-        <View style={styles.inputSection}>
-          <View style={styles.inputContainer}>
-            
-            {/* Email */}
-            <Text style={styles.label}>Email :</Text>
-            <TextInput
-              style={styles.input}
-              keyboardType="email-address"
-              autoCapitalize="none"
-              autoCorrect={false}
-            />
+            {/* Logo */}
+            <Image style={styles.logo} source={require('../../assets/images/Escodeve-logo.png')} />
 
-            {/* Password */}
-            <Text style={styles.label}>Password :</Text>
-            <TextInput
-              style={styles.input}
-              secureTextEntry
-              autoCapitalize="none"
-              autoCorrect={false}
-            />
-          </View>
+            <View style={styles.inputSection}>
+                <View style={styles.inputContainer}>
+                    
+                    {/* Email */}
+                    <Text style={styles.label}>Email :</Text>
+                    <TextInput
+                    style={styles.input}
+                    keyboardType="email-address"
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    />
 
-          <TouchableHighlight 
-            style={styles.loginButton}
-            underlayColor="#3A8BA3"
-            >
-            <Text style={styles.loginButtonText}>LOGIN</Text>
-          </TouchableHighlight>
+                    {/* Password */}
+                    <Text style={styles.label}>Password :</Text>
+                    <TextInput
+                    style={styles.input}
+                    secureTextEntry
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    />
+                </View>
 
-          <Text style={styles.forgotText}>Forgot your code pin ?</Text>
-        </View>
+                {/* Button */}
+                <TouchableHighlight style={styles.loginButton} underlayColor="#3A8BA3">
+                    <Text style={styles.loginButtonText}>LOGIN</Text>
+                </TouchableHighlight>
+                
+                {/* Forgot password.. */}
+                <Text style={styles.forgotText}>Forgot your password ?</Text>
+            </View>
 
-        <BottomLeftSvg />
-      </ScrollView>
+            <BottomLeftSvg />
+        </ScrollView>
+
     </KeyboardAvoidingView>
   );
 };
